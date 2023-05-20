@@ -1,0 +1,17 @@
+*.o
+*.d
+*.pyc
+TelinkSDK/components/mesh
+TelinkSDK/example/mesh
+TelinkSDK/example/*/out
+ATC_Thermometer/out/*
+ATC_Thermometer/ATC_Thermometer.bin
+ATC_Thermometer/ATC_Thermometer.cflags
+ATC_Thermometer/ATC_Thermometer.config
+ATC_Thermometer/ATC_Thermometer.creator
+ATC_Thermometer/ATC_Thermometer.cxxflags
+ATC_Thermometer/ATC_Thermometer.files
+ATC_Thermometer/ATC_Thermometer.includes
+rust_host_com/Cargo.lock
+rust_host_com/target/*
+nrf52_bridge/ble_app/pca10100/s122/armgcc/_build/*

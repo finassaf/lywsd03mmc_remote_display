@@ -1,0 +1,7 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "search.exclude": {
+        "**/pca10100/s113/armgcc/_build": true,
+    },
+    "cmake.configureOnOpen": false,
+}

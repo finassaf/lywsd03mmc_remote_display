@@ -1,0 +1,319 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make.exe: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.2.1
+# Built for x86_64-w64-mingw32
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue Jul 12 14:06:21 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+CARBON_MEM_DISABLE = 1
+# makefile
+MAKEFLAGS = pqrR
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# environment
+ST_LINK_SERVER = C:\Program Files (x86)\STMicroelectronics\stlink-util\bin
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := c:/Users/asbarnes/OneDrive - Microsoft/Hackathon/mag_mouse/code/ble_app
+# default
+SHELL := C:/Git/Nabu_BLE/packages/GNU.mcu.eclipse.build.tools.win64/bin/sh.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+PYCHARM COMMUNITY EDITION = C:\Program Files\JetBrains\PyCharm Community Edition 2019.2.5\bin;
+# environment
+ONEDRIVE = C:\Users\asbarnes\OneDrive - Microsoft
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile
+MAKEFILE_LIST := 
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+TMP = C:\Users\asbarnes\AppData\Local\Temp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-268b0d7b-8370-4aab-b7af-523672e992db-sock
+# environment
+VSCODE_CWD = C:\Users\asbarnes\OneDrive - Microsoft\Hackathon\mag_mouse\code\ble_app
+# environment
+CDS_LIC_ONLY = 1
+# default
+MAKE_HOST := x86_64-w64-mingw32
+# environment
+PATH = C:\Program Files\Microsoft\jdk-17.0.2.8-hotspot\bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Atmel\Studio\7.0;C:\Program Files (x86)\Meld;C:\Program Files (x86)\Nordic Semiconductor\nrf-command-line-tools\bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files\doxygen\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Users\asbarnes\AppData\Local\Programs\Python\Python37-32;C:\Program Files\dotnet\;C:\Program Files (x86)\Bluetooth Command Line Tools\bin;C:\Program Files\Graphviz\bin;C:\Program Files\nodejs\;C:\Program Files\CMake\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files (x86)\dotnet\;C:\Users\asbarnes\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\asbarnes\AppData\Local\Programs\Python\Python37\;C:\Users\asbarnes\AppData\Local\NuGet;C:\Users\asbarnes\AppData\Local\Microsoft\WindowsApps;C:\Users\asbarnes\AppData\Local\Programs\Microsoft VS Code\bin;C:\nxp\MCUXpressoIDE_10.1.0_589\ide\tools\bin;C:\Program Files (x86)\SEGGER\JLink_V620g;C:\Git\Nabu_BLE\packages\GNU.mcu.eclipse.build.tools.win64\bin;C:\cygwin64\bin;C:\Users\asbarnes\AppData\Local\Programs\Python\Python37-32\Scripts;C:\Users\asbarnes\AppData\Local\Microsoft\WindowsApps;C:\Program Files(x86)\Meld\lib;C:\Users\asbarnes\.dotnet\tools;C:\Program Files (x86)\GNU Tools Arm Embedded\9 2019-q4-major\bin;C:\Users\asbarnes\AppData\Roaming\npm;C:\Users\asbarnes\AppData\Local\Android\Sdk\platform-tools
+# environment
+LM_LICENSE_FILE = 27020@LSRV.middleeast.corp.microsoft.com
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+NIEXTCCOMPILERSUPP = C:\Program Files (x86)\National Instruments\Shared\ExternalCompilerSupport\C\
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+VXIPNPPATH64 = C:\Program Files\IVI Foundation\VISA\
+# environment
+USERPROFILE = C:\Users\asbarnes
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 12
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync
+# environment
+NRFGOSTUDIOPATH = C:\Program Files (x86)\Nordic Semiconductor\nRFgo Studio
+# environment
+PROCESSOR_LEVEL = 6
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_18520_PJETEZMKNOLCRCOI
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = ASBARNES-P1
+# environment
+PROGRAMFILES = C:\Program Files
+# environment
+JAVA = C:/Program Files (x86)/Java/jre1.8.0_231/bin/java.exe
+# default
+.LOADED := 
+# environment
+USERDNSDOMAIN = MIDDLEEAST.CORP.MICROSOFT.COM
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+GNU_GCC = C:/Program Files (x86)/GNU Tools Arm Embedded/9 2019-q4-major/bin
+# environment
+USERNAME = asbarnes
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = C:\SPB_Data
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\asbarnes\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# environment
+LOGONSERVER = \\DB3-ME-DC-07
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = MIDDLEEAST
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+NRF_TOOLS = C:/Program Files (x86)/Nordic Semiconductor/nrf-command-line-tools/bin
+# environment
+GNU_TOOLS = C:/Git/Nabu_BLE/packages/GNU.mcu.eclipse.build.tools.win64/bin
+# environment
+ONEDRIVECOMMERCIAL = C:\Users\asbarnes\OneDrive - Microsoft
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+.DEFAULT_GOAL := 
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+ST_LINK_PROG = C:\Program Files (x86)\STMicroelectronics\STM32Cube\STM32CubeProgrammer\bin
+# environment
+LOCALAPPDATA = C:\Users\asbarnes\AppData\Local
+# environment
+PSMODULEPATH = %ProgramFiles%\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft Azure Information Protection\Powershell
+# default
+MAKE_COMMAND := make.exe
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\84c26a1ee90514763a86f1dc1413bb96-1.68.1-main-sock
+# environment
+HOMEPATH = \Users\asbarnes
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# environment
+SEGGER_TOOLS = C:/Program Files (x86)/SEGGER/JLink_V620g
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\asbarnes\AppData\Roaming
+# environment
+VXIPNPPATH = C:\Program Files (x86)\IVI Foundation\VISA\
+# environment
+TEMP = C:\Users\asbarnes\AppData\Local\Temp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# environment
+UATDATA = C:\windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 9e0a
+# environment
+MOZ_PLUGIN_PATH = C:\Program Files (x86)\Foxit Software\Foxit Reader\plugins\
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 18520
+# environment
+VSCODE_EXE_PATH = C:/Users/asbarnes/AppData/Local/Programs/Microsoft VS Code/Code.exe
+# environment
+USERDOMAIN_ROAMINGPROFILE = MIDDLEEAST
+# variable set hash-table stats:
+# Load=114/1024=11%, Rehash=0, Collisions=18/131=14%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key c:/Users/asbarnes/OneDrive - Microsoft/Hackathon/mag_mouse/code/ble_app, mtime 1655382464): 14 files, no impossibilities.
+
+# 14 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile.mak:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=7/1024=1%, Rehash=0, Collisions=0/16=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 21 / storage = 243 B / avg = 11 B
+# current buf: size = 8162 B / used = 243 B / count = 21 / avg = 11 B
+
+# strcache performance: lookups = 23 / hit rate = 8%
+# hash-table stats:
+# Load=21/8192=0%, Rehash=0, Collisions=1/23=4%
+# Finished Make data base on Tue Jul 12 14:06:21 2022
+
+ 

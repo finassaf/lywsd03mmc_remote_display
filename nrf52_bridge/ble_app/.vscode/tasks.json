@@ -1,0 +1,57 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "make -j4",
+            "options": {
+                "cwd": "${workspaceFolder}/pca10100/s122/armgcc"
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "clean",
+            "type": "shell",
+            "command": "make clean",
+            "options": {
+                "cwd": "${workspaceFolder}/pca10100/s122/armgcc"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "flash",
+            "type": "shell",
+            "command": "make flash",
+            "options": {
+                "cwd": "${workspaceFolder}/pca10100/s122/armgcc"
+            },
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "flash_softdevice",
+            "type": "shell",
+            "command": "make flash_softdevice",
+            "options": {
+                "cwd": "${workspaceFolder}/pca10100/s122/armgcc"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "reset",
+            "type": "shell",
+            "command": "make reset",
+            "options": {
+                "cwd": "${workspaceFolder}/pca10100/s122/armgcc"
+            },
+            "problemMatcher": []
+        }
+    ]
+}

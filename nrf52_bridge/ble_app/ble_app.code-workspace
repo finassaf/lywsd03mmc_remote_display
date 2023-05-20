@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\sdk"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"ble_err.h": "c",
+			"nrf_sdm.h": "c",
+			"app_scheduler.h": "c",
+			"nrf.h": "c",
+			"nrf_sdh_ble.h": "c",
+			"mpu9250.h": "c",
+			"string.h": "c",
+			"newtonraphsonmultivariate.h": "c",
+			"xutility": "c"
+		}
+	}
+}
